@@ -1,0 +1,23 @@
+/*FOOTER MOBILE*/
+
+.listfooter{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 1px;
+}
+.linkfooter{
+    text-decoration: none;
+    color: #603610;
+    font-size: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.logofooter{
+    width: 30px;
+}
+.icono-wsp{
+    width: 8px;
+}

@@ -1,0 +1,27 @@
+/*CARTEL EN MOV*/
+.cartel {
+    width: 100%;
+    overflow: hidden;
+    background-color: #C9915E;
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cartel p {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: movimiento 10s linear infinite;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

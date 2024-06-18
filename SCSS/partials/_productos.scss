@@ -1,0 +1,31 @@
+/*PRODUCTOS MOBILE*/
+.tl-productos{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: 2%;
+}
+.div-productos{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: #fab676f5;
+    box-shadow: 6px 8px 25px -3px rgba(0,0,0,1);
+-webkit-box-shadow: 6px 8px 25px -3px rgba(0,0,0,1);
+-moz-box-shadow: 6px 8px 25px -3px rgba(0,0,0,1);
+}
+.pan-lactal-prod{
+    margin: 2%;
+    width: 25%;
+    border-radius: 15%;
+
+}
+.p-panlact{
+    font-size: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3%;
+}

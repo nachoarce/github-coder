@@ -1,0 +1,68 @@
+/*CONTACTO MOBILE*/
+.sect-contacto{
+    background-color: white;
+}
+
+.contacto-tl{
+    padding-top: 5%;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.subtitulocontacto{
+    display: block;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.linea{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-bottom: 2px solid black;
+}
+.wsp-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icono-wsp-v{
+    width: 10%;
+    margin: 15px;
+}
+.numerowsp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+}
+.insta-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconoig{
+    width: 12%;
+    margin: 15px;
+}
+.igtxt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+
+}
+.mail-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconomail{
+    width: 12%;
+    margin: 15px;
+}
+.mail-txt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+

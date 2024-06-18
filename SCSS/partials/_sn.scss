@@ -1,0 +1,35 @@
+/*SOBRE NOSOTROS MOBILE*/
+.sobre-nosotros{
+    background-color: white;
+}
+.sn-tl{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.cont-sn{
+    position: relative;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding-bottom: 10px;
+}
+
+.imgsn{
+    width: 35%;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+
+}
+.txt-sn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75%;
+    margin-left: 3%;
+    display: grid;
+}

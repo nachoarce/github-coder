@@ -1,0 +1,66 @@
+body{
+    header{
+        height: var(--altura_header);
+        background-color: #C9915E;
+
+        nav{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+            padding: 0 var(--padding_left_right);
+            width: min(1200px, 100%);
+            margin: 0 auto;
+
+            a{
+                text-decoration: none;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #603610;
+                font-stretch:expanded;
+                font-size: 40px;
+            }
+        }
+
+        }
+    }
+    .linkheader{
+        text-decoration: none;
+        color: #603610;
+    }
+    .linkheader:hover{
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    .menu_hamburguesa{
+        display: none;
+    }
+    .ul_links{
+        width:100%;
+        background-color:#C9915E;
+        position: absolute;
+        top: var(--altura_header);
+        left: 0;
+        height: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        gap: 50px;
+    
+        transition: all .3s;
+    }
+    .menuhambur {
+        cursor: pointer;
+    }
+    .menu_hamburguesa:checked + .ul_links {
+        height: calc(100vh - var(--altura_header));
+    }
+    .logopanarce{
+        width: 70px;
+        margin-left: 5%;
+    }
